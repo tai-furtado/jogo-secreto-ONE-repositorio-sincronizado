@@ -8,7 +8,7 @@
 // O conteúdo do HTML é o que está entre a tag de abertura e a tag de fechamento. Ex.: o conteúdo do <h1> é "Jogo do número secreto"
 
 let listaDeNumerosSorteados = []; // Cria um array vazio chamado listaDeNumerosSorteados
-let numeroLimite = 10; // Cria uma variável chamada numeroLimite e atribui o valor 10
+let numeroLimite = 100; // Cria uma variável chamada numeroLimite e atribui o valor 10
 let numeroSecreto = gerarNumeroSecreto(); // Chama a função gerarNumeroSecreto e armazena o número secreto gerado na variável numeroSecreto (linha 15)
 console.log (numeroSecreto); // Exibe o número secreto no console
 let tentativas = 1;
